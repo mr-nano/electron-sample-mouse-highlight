@@ -5,6 +5,8 @@ const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const globalShortcut = electron.globalShortcut;
 
+// hello
+
 function createWindow() {
 
   const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize;
